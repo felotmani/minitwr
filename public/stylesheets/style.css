@@ -1,8 +1,26 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color : pink;
 }
 
 a {
   color: #00B7FF;
 }
+#cadre{
+background-color : grey;
+border:groove 20px ;
+margin:5%;
+}
+
+#cadre h1 {
+	
+	font-size: 60px
+}
+
+h1{
+
+color : pink ;
+text-align:center;}
+input,textarea{
+border:groove 10px;}

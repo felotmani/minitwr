@@ -1,8 +1,10 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  #cadre
+    h1= title
+    center
+      img(src='./images/ecu.png')
   form(action='/', method='POST')
     textarea(name="tweet", rows=3, columns=50)
     input(type='submit', content='Sends')
@@ -10,3 +12,4 @@ block content
   ul
     - each tweet in tweets
       li= tweet
+
